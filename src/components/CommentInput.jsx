@@ -26,7 +26,7 @@ const CommentInput = ({ comment, setComment }) => {
       />
       <button
         onClick={handleClick}
-        className="w-24 bg-yellow-400 rounded-xl p-2"
+        className="w-24 bg-yellow-400 border-2 border-gray-800 rounded-xl p-2"
       >
         Enter
       </button>

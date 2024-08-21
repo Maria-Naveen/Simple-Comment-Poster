@@ -5,7 +5,7 @@ import CommentsDisplay from "./components/CommentsDisplay";
 const App = () => {
   const [comment, setComment] = useState([]);
   return (
-    <div>
+    <div className="w-full h-screen flex flex-col items-center justify-center">
       <CommentInput comment={comment} setComment={setComment}></CommentInput>
       <CommentsDisplay comment={comment}></CommentsDisplay>
     </div>
